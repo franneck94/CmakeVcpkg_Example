@@ -1,0 +1,39 @@
+{
+    "name": "test",
+    "version-string": "0.1.0",
+    "dependencies": [
+        {
+            "name": "fmt",
+            "version>=": "8.1.1"
+        },
+        {
+            "name": "cxxopts",
+            "version>=": "3.0.0"
+        },
+        {
+            "name": "range-v3",
+            "version>=": "2021-11-02"
+        },
+        {
+            "name": "catch2",
+            "version>=": "2.13.8"
+        },
+        {
+            "name": "jsoncpp",
+            "version>=": "1.9.5"
+        },
+        {
+            "name": "cpp-httplib",
+            "version>=": "0.10.3"
+        },
+        {
+            "name": "open62541",
+            "version>=": "1.2.3"
+        },
+        {
+            "name": "opencv",
+            "version>=": "4.5.5"
+        }
+    ],
+    "builtin-baseline": "9ff4659a075d5f4f30aaca9f7c4e7f059ecc1d6d"
+}
