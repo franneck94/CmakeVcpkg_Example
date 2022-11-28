@@ -15,14 +15,14 @@
 
 int main(int argc, char **argv)
 {
-    std::cout << CV_VERSION << '\n';
-    std::cout << JSONCPP_VERSION_STRING << '\n';
-    std::cout << UA_OPEN62541_VER_COMMIT << '\n';
-    std::cout << NADJIEB_MJPEG_STREAMER_VERSION_STRING << '\n';
-    std::cout << RANGE_V3_VERSION << '\n';
-    std::cout << FMT_VERSION << '\n';
-    std::cout << CXXOPTS__VERSION_MAJOR << '\n';
-    std::cout << CATCH_VERSION_MAJOR << '\n';
+    std::cout << "CV: " << CV_VERSION << '\n';
+    std::cout << "JSON: " << JSONCPP_VERSION_STRING << '\n';
+    std::cout << "UA: " << UA_OPEN62541_VER_COMMIT << '\n';
+    std::cout << "MJPEG: " << NADJIEB_MJPEG_STREAMER_VERSION_STRING << '\n';
+    std::cout << "Range: " << RANGE_V3_VERSION << '\n';
+    std::cout << "FMT: " << FMT_VERSION << '\n';
+    std::cout << "CXXOPTS: " << CXXOPTS__VERSION_MAJOR << '\n';
+    std::cout << "Catch: " << CATCH_VERSION_MAJOR << '\n';
 
     print_hello_world();
 }
